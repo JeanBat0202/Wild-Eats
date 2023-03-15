@@ -63,9 +63,14 @@ p {
 
 .imgRestau img {
   width: 100%;
+  border-color: #ff8906;
+  border-style: solid;
+  border-width: 2px;
   border-radius: 5%;
   height: 100%;
   object-fit: cover;
+  
+  
 }
 
 
@@ -73,6 +78,7 @@ p {
 .containerFastFood {
   display: flex;
   flex-direction: column;
+  margin-top: 8px;
 }
 
 
@@ -93,6 +99,7 @@ p {
 .containerBoulangerie {
   display: flex;
   flex-direction: column;
+  
 }
 
 
@@ -108,4 +115,9 @@ p {
   border-radius: 5%;
   height: 100%;
   object-fit: cover;
+}
+
+main h2 {
+  margin-top: 48px;
+  text-decoration: underline #ff8906 ;
 }
