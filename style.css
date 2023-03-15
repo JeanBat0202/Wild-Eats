@@ -31,3 +31,16 @@ max-height: 56px;
     background-color: #0f0e17;
     margin: 6px 0;
 }
+header{
+border: 2px solid #ff8906;
+padding-bottom: 16px;
+margin-top: 8px;
+
+}
+h2, p{
+    color: #f0edea;
+    text-align: center;
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 8px;
+}
