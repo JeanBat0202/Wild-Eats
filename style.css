@@ -49,13 +49,28 @@ p {
   text-decoration: underline #ff8906;
 }
 
-.imgRestaurants {
+.containerImgrestaurant {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .laGourmandise {
-  max-width: 90%;
-  margin-left: 5%;
+  width: 80%;
+  margin-left: 10%;
+  border-radius: 5%;
+  margin-top: 16px;
+}
+.laLoupiote {
+  max-width: 80%;
+  margin-left: 10%;
+  border-radius: 5%;
+  margin-top: 16px;
+}
+.ritalCafe {
+  max-width: 80%;
+  margin-left: 10%;
+  border-radius: 5%;
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
