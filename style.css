@@ -1,46 +1,61 @@
 * {
-    margin: 0;
-    padding: 0;
-box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-body{
-    background-color: #0f0e17;
+body {
+  background-color: #0f0e17;
 }
-h1{
-padding-top: 5px;
+h1 {
+  padding-top: 5px;
 }
-nav{
-    display: flex;
-    justify-content: space-around;
-    background-color: #ff8906;
-    height: 56px;
-    padding-top: 8px;
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ff8906;
+  height: 56px;
+  padding-top: 8px;
 }
-.logo{
-max-width: 56px;
-max-height: 56px;
+.logo {
+  max-width: 56px;
+  max-height: 56px;
 }
-.menu-toggle{
-    display: inline-block;
-    cursor: pointer;
-    padding-top: 4px;
+.menu-toggle {
+  display: inline-block;
+  cursor: pointer;
+  padding-top: 4px;
 }
-.bar{
-    width: 30px;
-    height: 3px;
-    background-color: #0f0e17;
-    margin: 6px 0;
+.bar {
+  width: 30px;
+  height: 3px;
+  background-color: #0f0e17;
+  margin: 6px 0;
 }
-header{
-border: 2px solid #ff8906;
-padding-bottom: 16px;
-margin-top: 8px;
+header {
+  border: 2px solid #ff8906;
+  padding-bottom: 16px;
+  margin-top: 8px;
+}
+h2,
+p {
+  color: #f0edea;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
 
+.restaurants h2 {
+  text-decoration: underline #ff8906;
 }
-h2, p{
-    color: #f0edea;
-    text-align: center;
-    margin-left: 8px;
-    margin-right: 8px;
-    margin-top: 8px;
+
+.imgRestaurants {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.laGourmandise {
+  max-width: 90%;
+  margin-left: 5%;
 }
