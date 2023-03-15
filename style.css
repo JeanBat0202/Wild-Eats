@@ -52,25 +52,18 @@ p {
 .containerImgrestaurant {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
-.laGourmandise {
+.imgRestau {
   width: 80%;
+  height: 200px;
   margin-left: 10%;
-  border-radius: 5%;
   margin-top: 16px;
 }
-.laLoupiote {
-  max-width: 80%;
-  margin-left: 10%;
+
+.imgRestau img {
+  width: 100%;
   border-radius: 5%;
-  margin-top: 16px;
-}
-.ritalCafe {
-  max-width: 80%;
-  margin-left: 10%;
-  border-radius: 5%;
-  margin-top: 16px;
-  margin-bottom: 16px;
+  height: 100%;
+  object-fit: cover;
 }
