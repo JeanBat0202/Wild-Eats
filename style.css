@@ -67,3 +67,45 @@ p {
   height: 100%;
   object-fit: cover;
 }
+
+
+
+.containerFastFood {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.imgFastFood {
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 16px;
+}
+
+.imgFastFood img {
+  width: 100%;
+  border-radius: 5%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerBoulangerie {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.imgBoulangerie {
+  width: 80%;
+  height: 200px;
+  margin-left: 10%;
+  margin-top: 16px;
+}
+
+.imgBoulangerie img {
+  width: 100%;
+  border-radius: 5%;
+  height: 100%;
+  object-fit: cover;
+}
