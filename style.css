@@ -2,9 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+
 }
 body {
-  background-color: #0f0e17;
+  background-color: #f0edea;
 }
 h1 {
   padding-top: 5px;
@@ -12,7 +14,7 @@ h1 {
 nav {
   display: flex;
   justify-content: space-around;
-  background-color: #ff8906;
+  background-color: #e60c0c;
   height: 56px;
   padding-top: 8px;
 }
@@ -32,13 +34,13 @@ nav {
   margin: 6px 0;
 }
 header {
-  border: 2px solid #ff8906;
+  border: 2px solid #e60c0c;
   padding-bottom: 16px;
   margin-top: 8px;
 }
 h2,
 p {
-  color: #f0edea;
+  color: #0f0e17;
   text-align: center;
   margin-left: 8px;
   margin-right: 8px;
@@ -46,7 +48,7 @@ p {
 }
 
 .restaurants h2 {
-  text-decoration: underline #ff8906;
+  text-decoration: underline #e60c0c;
 }
 
 .containerImgrestaurant {
@@ -63,11 +65,13 @@ p {
 
 .imgRestau img {
   width: 100%;
-  border-color: #ff8906;
-  box-shadow: 10px 5px 5px #f0edea;
+  border-color: #e60c0c;
+ 
   border-radius: 5%;
   height: 100%;
   object-fit: cover;
+  padding-top: 24px;
+  
 }
 
 .containerFastFood {
@@ -88,6 +92,7 @@ p {
   border-radius: 5%;
   height: 100%;
   object-fit: cover;
+  padding-top: 24px;
 }
 
 .containerBoulangerie {
@@ -107,9 +112,33 @@ p {
   border-radius: 5%;
   height: 100%;
   object-fit: cover;
+  padding-top: 24px;
+  
+ 
 }
 
 main h2 {
   margin-top: 48px;
-  text-decoration: underline #ff8906;
+  text-decoration: underline #e60c0c;
+  text-align: left;
+  background-color: #e60c0c;
+}
+
+.imgRestau p {
+  font-size: larger;
+text-align: left;
+
+  
+}
+
+.imgFastFood p {
+  font-size: larger;
+  text-align: left;
+
+}
+
+.imgBoulangerie p {
+  font-size: larger;
+  text-align: left;
+
 }
