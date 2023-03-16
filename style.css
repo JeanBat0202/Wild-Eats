@@ -64,23 +64,17 @@ p {
 .imgRestau img {
   width: 100%;
   border-color: #ff8906;
-  border-style: solid;
-  border-width: 2px;
+  box-shadow: 10px 5px 5px #f0edea;
   border-radius: 5%;
   height: 100%;
   object-fit: cover;
-  
-  
 }
-
-
 
 .containerFastFood {
   display: flex;
   flex-direction: column;
   margin-top: 8px;
 }
-
 
 .imgFastFood {
   width: 80%;
@@ -99,9 +93,7 @@ p {
 .containerBoulangerie {
   display: flex;
   flex-direction: column;
-  
 }
-
 
 .imgBoulangerie {
   width: 80%;
@@ -119,5 +111,5 @@ p {
 
 main h2 {
   margin-top: 48px;
-  text-decoration: underline #ff8906 ;
+  text-decoration: underline #ff8906;
 }
