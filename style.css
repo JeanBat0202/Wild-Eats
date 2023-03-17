@@ -106,9 +106,10 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 200px;
+  /* height: 200px; */
   margin-left: 10%;
   margin-top: 16px;
+  max-height: 200px;
 }
 
 .imgRestau img {
@@ -123,9 +124,10 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 200px;
+  /* height: 200px; */
   margin-left: 10%;
   margin-top: 16px;
+  max-height: 200px;
 }
 
 .imgFastFood img {
@@ -144,7 +146,7 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 200px;
+  /* height: 200px; */
   margin-left: 10%;
   margin-top: 16px;
 }
