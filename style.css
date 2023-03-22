@@ -14,7 +14,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: space-around;
-  background-color: #e60c0c;
+  background-color: #dc273a;
   /* height: 56px; */
   padding-top: 8px;
 }
@@ -84,7 +84,7 @@ ul li a {
   margin: 6px 0;
 }
 header {
-  border: 2px solid #e60c0c;
+  border: 2px solid #dc273a;
   padding-bottom: 16px;
   margin-top: 8px;
 }
@@ -98,7 +98,7 @@ p {
 }
 
 .restaurants h2 {
-  text-decoration: underline #e60c0c;
+  text-decoration: underline #dc273a;
 }
 
 .containerImgrestaurants {
@@ -116,7 +116,7 @@ p {
 
 .imgRestau img {
   width: 100%;
-  border-color: #e60c0c;
+  border-color: #dc273a;
   border-radius: 5%;
   height: 200px;
   object-fit: cover;
@@ -165,10 +165,10 @@ p {
 }
 
 main h2 {
-  margin-top: 48px;
+  margin-top: 36px;
   text-decoration: underline #e60c0c;
   text-align: left;
-  background-color: #e60c0c;
+  background-color: #dc273a;
   padding-left: 32px;
 }
 
@@ -185,6 +185,15 @@ main h2 {
 .imgBoulangerie h3 {
   font-size: larger;
   text-align: left;
+}
+
+main p {
+  text-align: left;
+  margin: 0%;
+}
+
+main button {
+  margin-left: 100%;
 }
 
 @media screen and (min-width: 481px) {
