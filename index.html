@@ -34,34 +34,46 @@
       <h2>Welcome wilders !</h2>
       <p>
         Nous vous avons selectionné les meilleures adresses pour vous restaurer.
-        Nos experts se sont penchés durant de longues séances de dégustations.
+        Nos experts se sont penchés sur la question durant de longues séances de dégustations.
       </p>
     </header>
     <main>
       <section class="containerImgrestaurants">
         <h2>Restaurants</h2>
 
-        <div class="imgRestau laGourmandise">
+        <div class="imgRestau laGourmandise expensive">
           <img
             src="Pictures Restaurant\la-gourmandise.jpg"
             alt="Restaurant la Gourmandise"
           />
           <h3>La Gourmandise</h3>
-          <p>
-            Restaurant de tradition française à coté de la gare. Adresse: 2
-            Place de la Gare, 28240 La Loupe
-          </p>
+          <div>
+            <p id="descriptionLaGourmandise" style="display: none">
+              Restaurant de tradition française à coté de la gare. 
+             Adresse: 2 Place de la Gare, 28240 La Loupe
+            </p>
+            <button onclick="toggleVisibility()">...</button>
+        </div>
         </div>
 
-        <div class="imgRestau laLoupiote">
+
+
+        <div class="imgRestau laLoupiote average">
           <img
             src="Pictures Restaurant\laLoupiote.jpg"
             alt="Restaurant La Loupiote"
           />
           <h3>La Loupiote</h3>
+          <div>
+            <p id="descriptionLaLoupiote" style="display: none">
+              Restaurant de tradition française à coté de la gare. 
+             Adresse: 2 Place de la Gare, 28240 La Loupe
+            </p>
+            <button onclick="toggleVisibility()">...</button>
+        </div>
         </div>
 
-        <div class="imgRestau ritalCafe">
+        <div class="imgRestau ritalCafe cheap">
           <img
             src="Pictures Restaurant\ritalcafé.jpg"
             alt="Restaurant Rital Café"
@@ -73,17 +85,17 @@
       <section class="containerFastFood">
         <h2>Fast-Food</h2>
 
-        <div class="imgFastFood Mcdo">
+        <div class="imgFastFood Mcdo expensive">
           <img src="Pictures Fastfood\Mcdonalds.jpg" alt="Mcdonalds" />
           <h3>Mcdonald's</h3>
         </div>
 
-        <div class="imgFastFood restoRapide">
+        <div class="imgFastFood restoRapide average">
           <img src="Pictures Fastfood\restorapide.png" alt="restoRapide" />
           <h3>Resto Rapide</h3>
         </div>
 
-        <div class="imgFastFood pizzaDiNapoli">
+        <div class="imgFastFood pizzaDiNapoli cheap">
           <img src="Pictures Fastfood\pizzadinapoli.jpg".jpg"
           alt="pizzaDiNapoli" />
           <h3>Pizza di Napoli</h3>
@@ -93,7 +105,7 @@
       <section class="containerBoulangerie">
         <h2>Boulangeries</h2>
 
-        <div class="imgBoulangerie saveursEtTraditions">
+        <div class="imgBoulangerie saveursEtTraditions expensive">
           <img
             src="Pictures Boulangerie\saveurEtTraditions.jpg"
             alt="saveursEtTraditions"
@@ -101,7 +113,7 @@
           <h3>Saveurs et Traditions</h3>
         </div>
 
-        <div class="imgBoulangerie aurelienEtSolene">
+        <div class="imgBoulangerie aurelienEtSolene average">
           <img
             src="Pictures Boulangerie\Aurelienetsolene.jpg"
             alt="aurelienEtSolene"
@@ -109,7 +121,7 @@
           <h3>Aurélien et Solène</h3>
         </div>
 
-        <div class="imgBoulangerie grosChene">
+        <div class="imgBoulangerie grosChene cheap">
           <img src="Pictures Boulangerie\GRoschene.jpg" alt="grosChene" />
           <h3>Le gros chêne</h3>
         </div>
