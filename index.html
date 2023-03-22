@@ -22,11 +22,18 @@
       <div class="menu-burger">
         <label class= "menu-links" "for="Type">Qu'est-ce qu'on mange ?</label>
         <select>
-          <option value="all">Tous</option>
-          <option value="Restaurants">Restaurants</option>
-          <option value="Fast-Food">Fast-Food</option>
-          <option value="Boulangeries">Boulangeries</option>
+          <option value="#Restaurants">Restaurants</option>
+          <option value="#Fast-Food">Fast-Food</option>
+          <option value="#Boulangeries">Boulangeries</option>
         </select>
+
+        <label class= "menu-links" "for="Price">Combien t'as?</label>
+        <select id = "select2">
+          <option value="expensive">Chers</option>
+          <option value="average">Moyen</option>
+          <option value="cheap">Pas chers</option>
+        </select>
+        
       </div>
     </nav>
 
@@ -39,7 +46,7 @@
     </header>
     <main>
       <section class="containerImgrestaurants">
-        <h2>Restaurants</h2>
+        <h2 id="Restaurants">Restaurants</h2>
 
         <div class="imgRestau laGourmandise">
           <img
@@ -75,7 +82,7 @@
       </section>
 
       <section class="containerFastFood">
-        <h2>Fast-Food</h2>
+        <h2 id="Fast-Food">Fast-Food</h2>
 
         <div class="imgFastFood Mcdo">
           <img src="Pictures Fastfood\Mcdonalds.jpg" alt="Mcdonalds" />
@@ -95,7 +102,7 @@
       </section>
 
       <section class="containerBoulangerie">
-        <h2>Boulangeries</h2>
+        <h2 id="Boulangeries">Boulangeries</h2>
 
         <div class="imgBoulangerie saveursEtTraditions">
           <img

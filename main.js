@@ -7,3 +7,9 @@ burgerIcon.addEventListener('click', () => {
   menuBurger.classList.toggle('open');
 });
 
+const selectElement = document.querySelector('select');
+  selectElement.addEventListener('change', (event) => {
+    const selectedOption = event.target.value;
+    const selectedElement = document.querySelector(selectedOption);
+    selectedElement.scrollIntoView({ behavior: 'smooth' });
+  });
