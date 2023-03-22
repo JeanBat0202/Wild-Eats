@@ -22,11 +22,18 @@
       <div class="menu-burger">
         <label class= "menu-links" "for="Type">Qu'est-ce qu'on mange ?</label>
         <select>
-          <option value="all">Tous</option>
-          <option value="Restaurants">Restaurants</option>
-          <option value="Fast-Food">Fast-Food</option>
-          <option value="Boulangeries">Boulangeries</option>
+          <option value="#Restaurants">Restaurants</option>
+          <option value="#Fast-Food">Fast-Food</option>
+          <option value="#Boulangeries">Boulangeries</option>
         </select>
+
+        <label class= "menu-links" "for="Price">Combien t'as?</label>
+        <select id = "select2">
+          <option value="expensive">Chers</option>
+          <option value="average">Moyen</option>
+          <option value="cheap">Pas chers</option>
+        </select>
+        
       </div>
     </nav>
 
@@ -35,11 +42,12 @@
       <p>
         Nous vous avons selectionné les meilleures adresses pour vous restaurer.
         Nos experts se sont penchés sur la question durant de longues séances de dégustations.
+        Naviguez dans les différentes sections et faites votre choix !
       </p>
     </header>
     <main>
       <section class="containerImgrestaurants">
-        <h2>Restaurants</h2>
+        <h2 id="Restaurants">Restaurants</h2>
 
         <div class="imgRestau laGourmandise expensive">
           <img
@@ -49,10 +57,10 @@
           <h3>La Gourmandise</h3>
           <div>
             <p id="descriptionLaGourmandise" style="display: none">
-              Restaurant de tradition française à coté de la gare. 
-             Adresse: 2 Place de la Gare, 28240 La Loupe
+              Restaurant de tradition française à coté de la gare. <br>
+              <br> Adresse : 2 Place de la Gare, 28240 La Loupe</br>
             </p>
-            <button onclick="toggleVisibility()">...</button>
+            <button onclick="toggleVisibilityLaGourmandise()">...</button>
         </div>
         </div>
 
@@ -66,10 +74,10 @@
           <h3>La Loupiote</h3>
           <div>
             <p id="descriptionLaLoupiote" style="display: none">
-              Restaurant de tradition française à coté de la gare. 
-             Adresse: 2 Place de la Gare, 28240 La Loupe
+              Restaurant tradi français. Pour 16euros le menu c'est cadeaux ! <br>
+             <br>Adresse : 2 rue de l'abrevoir, 28240 La Loupe</br>
             </p>
-            <button onclick="toggleVisibility()">...</button>
+            <button onclick="toggleVisibilityLaLoupiote()">...</button>
         </div>
         </div>
 
@@ -79,31 +87,64 @@
             alt="Restaurant Rital Café"
           />
           <h3>Rital Café</h3>
+          <div>
+            <p id="descriptionRitalCafé" style="display: none">
+              Laissez vous tenter par n’importe quelle pizza! La Qualité est constante , et les pizzas toujours généreuses ! 
+              <br>
+              <br> Services disponibles: Repas sur place · Vente à emporter</br>
+              <br> Adresse: 7 Rue Delaperelle, 28240 La Loupe</br>
+            </p>
+            <button onclick="toggleVisibilityRitalCafé()">...</button>
+        </div>
         </div>
       </section>
 
       <section class="containerFastFood">
-        <h2>Fast-Food</h2>
+        <h2 id="Fast-Food">Fast-Food</h2>
 
         <div class="imgFastFood Mcdo expensive">
           <img src="Pictures Fastfood\Mcdonalds.jpg" alt="Mcdonalds" />
           <h3>Mcdonald's</h3>
+          <div>
+            <p id="descriptionMcdo" style="display: none">
+              Classique, rapide, efficace, tout le monde connaît le géant américain du fast food.<br>
+              <br>Services disponibles: Repas sur place · Vente à emporter </br>
+              <br> Adresse: 2 Impasse de la Cerisaie, 28240 La Loupe</br>
+            </p>
+            <button onclick="toggleVisibilityMcdo()">...</button>
+        </div>
         </div>
 
         <div class="imgFastFood restoRapide average">
           <img src="Pictures Fastfood\restorapide.png" alt="restoRapide" />
           <h3>Resto Rapide</h3>
+          <div>
+            <p id="descriptionrestoRapide" style="display: none">
+              Copieux bien garnie avec de la viande de qualité !<br>
+              <br>Services disponibles: Repas sur place · Vente à emporter<br>
+              <br>Adresse : Rue Delaperelle, 28240 La Loupe</br>
+            </p>
+            <button onclick="toggleVisibilityrestoRapide()">...</button>
+        </div>
         </div>
 
         <div class="imgFastFood pizzaDiNapoli cheap">
           <img src="Pictures Fastfood\pizzadinapoli.jpg".jpg"
           alt="pizzaDiNapoli" />
           <h3>Pizza di Napoli</h3>
+          <div>
+            <p id="descriptionpizzaDiNapoli" style="display: none">
+              En livraison ou à emporter toujours bien reçu et bien servi ! Une équipe au top.<br>
+              <br>Services disponibles: Repas sur place · Drive disponible · Livraison<br>
+              <br> Adresse: 1 rue Paul Eluard, 28240 la Loupe</br>
+            </p>
+            <button onclick="toggleVisibilitypizzaDiNapoli()">...</button>
+        </div>
         </div>
       </section>
 
       <section class="containerBoulangerie">
-        <h2>Boulangeries</h2>
+        <h2 id="Boulangeries">Boulangeries</h2>
 
         <div class="imgBoulangerie saveursEtTraditions expensive">
           <img
@@ -111,6 +152,13 @@
             alt="saveursEtTraditions"
           />
           <h3>Saveurs et Traditions</h3>
+          <div>
+            <p id="descriptionsaveursEtTraditions" style="display: none">
+              Accueil courtois, cadre de qualité, un large choix de gâteaux. Le pain, les viennoiseries et la pâtisserie sont excellents..<br>
+              <br> Adresse: 7 Rue de l'Église, 28240 La Loupe</br>
+            </p>
+            <button onclick="toggleVisibilitysaveursEtTraditions()">...</button>
+        </div>
         </div>
 
         <div class="imgBoulangerie aurelienEtSolene average">
@@ -119,11 +167,27 @@
             alt="aurelienEtSolene"
           />
           <h3>Aurélien et Solène</h3>
+          <div>
+            <p id="descriptionaurelienEtSolene" style="display: none">
+              Rapide dans le service. Propreté de la boutique.
+              Personnel agréable à l'écoute. Essayez leurs madeleines !<br>
+
+              <br> Adresse: 2 Place de la Gare, 28240 La Loupe</br>
+            </p>
+            <button onclick="toggleVisibilityaurelienEtSolene()">...</button>
+        </div>
         </div>
 
         <div class="imgBoulangerie grosChene cheap">
           <img src="Pictures Boulangerie\GRoschene.jpg" alt="grosChene" />
           <h3>Le gros chêne</h3>
+          <div>
+            <p id="descriptiongrosChene" style="display: none">
+              L'accueil est très sympathique, et la boutique possède un grand choix de pains, de viennoiseries et de pâtisseries.<br>
+              <br> Adresse: 3 Rue de Châteaudun, 28240 La Loupe</br>
+            </p>
+            <button onclick="toggleVisibilitygrosChene()">...</button>
+        </div>
         </div>
       </section>
     </main>
