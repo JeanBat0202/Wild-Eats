@@ -200,9 +200,9 @@ main button {
   nav {
     display: flex;
     flex-direction: column;
-    align-items:center;
+    align-items: center;
     justify-content: space-around;
-    background-color: #e60c0c;
+    background-color: #dc273a;
     padding-top: 8px;
     padding-bottom: 16px;
   }
@@ -212,15 +212,22 @@ main button {
   }
 
 
+ 
+  .containerImgrestaurants {
+    display: flex;
+    flex-direction: row;
+    margin-right: 8%;
+  }
 
+  .containerFastFood {
+    display: flex;
+    flex-direction: row;
+    margin-right: 8%;
+  }
 
+  .containerBoulangerie {
+    display: flex;
+    flex-direction: row;
+    margin-right: 8%;
+  }
 
-
-
-
-
-
-
-
-
-}
