@@ -106,17 +106,15 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 200px;
   margin-left: 10%;
   margin-top: 16px;
-  /* max-height: 200px; */
 }
 
 .imgRestau img {
-  max-width: 100%;
+  width: 100%;
   border-color: #e60c0c;
   border-radius: 5%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -129,16 +127,15 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 200px;
   margin-left: 10%;
   margin-top: 16px;
-  /* max-height: 200px; */
 }
 
 .imgFastFood img {
   width: 100%;
+  border-color: #e60c0c;
   border-radius: 5%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -151,15 +148,15 @@ p {
   display: flex;
   flex-direction: column;
   width: 80%;
-  height: 200px;
   margin-left: 10%;
   margin-top: 16px;
 }
 
 .imgBoulangerie img {
   width: 100%;
+  border-color: #e60c0c;
   border-radius: 5%;
-  height: 100%;
+  height: 200px;
   object-fit: cover;
 }
 
@@ -184,9 +181,4 @@ main h2 {
 .imgBoulangerie h3 {
   font-size: larger;
   text-align: left;
-}
-
-.description {
-  text-align: left;
-  margin: auto;
 }
