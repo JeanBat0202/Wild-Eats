@@ -186,3 +186,32 @@ main h2 {
   font-size: larger;
   text-align: left;
 }
+
+@media screen and (min-width: 481px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-around;
+    background-color: #e60c0c;
+    padding-top: 8px;
+    padding-bottom: 16px;
+  }
+  .logo {
+    max-width: 15%;
+    max-height: 15%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
