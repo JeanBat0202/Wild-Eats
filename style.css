@@ -92,9 +92,9 @@ h2,
 p {
   color: #0f0e17;
   text-align: center;
-  margin-left: 8px;
+  /* margin-left: 8px;
   margin-right: 8px;
-  margin-top: 8px;
+  margin-top: 8px; */
 }
 
 .restaurants h2 {
@@ -104,18 +104,19 @@ p {
 .containerImgrestaurants {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .imgRestau {
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin-left: 10%;
   margin-top: 16px;
 }
 
 .imgRestau img {
-  width: 100%;
+  /* width: 100%; */
+  width: 266px;
   border-color: #dc273a;
   border-radius: 5%;
   height: 200px;
@@ -125,18 +126,19 @@ p {
 .containerFastFood {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .imgFastFood {
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin-left: 10%;
   margin-top: 16px;
 }
 
 .imgFastFood img {
-  width: 100%;
+  /* width: 100%; */
+  width: 266px;
   border-color: #e60c0c;
   border-radius: 5%;
   height: 200px;
@@ -146,18 +148,19 @@ p {
 .containerBoulangerie {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 
 .imgBoulangerie {
   display: flex;
   flex-direction: column;
-  width: 80%;
   margin-left: 10%;
   margin-top: 16px;
 }
 
 .imgBoulangerie img {
-  width: 100%;
+  /* width: 100%; */
+  width: 266px;
   border-color: #e60c0c;
   border-radius: 5%;
   height: 200px;
@@ -193,7 +196,11 @@ main p {
 }
 
 main button {
-  margin-left: 100%;
+  margin-left: 90%;
+}
+
+footer {
+  padding-left: 16px;
 }
 
 @media screen and (min-width: 481px) {
@@ -211,23 +218,71 @@ main button {
     max-height: 15%;
   }
 
+  .imgRestau img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    justify-content: center;
+  }
 
- 
+  .imgFastFood img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5%;
+    object-fit: cover;
+    justify-content: center;
+  }
+
+  .imgBoulangerie img {
+    /* max-width: 100%; */
+    max-height: 100%;
+    max-width: 257px;
+    border-radius: 5%;
+    object-fit: cover;
+    justify-content: center;
+  }
+
   .containerImgrestaurants {
     display: flex;
     flex-direction: row;
-    margin-right: 8%;
+    flex-wrap: wrap;
   }
 
   .containerFastFood {
     display: flex;
     flex-direction: row;
-    margin-right: 8%;
+    flex-wrap: wrap;
   }
 
   .containerBoulangerie {
     display: flex;
     flex-direction: row;
-    margin-right: 8%;
+    flex-wrap: wrap;
   }
 
+  .imgRestau {
+    min-width: 257px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 16px;
+  }
+
+  .imgFastFood {
+    min-width: 257px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 16px;
+  }
+
+  .imgBoulangerie {
+    min-width: 257px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 16px;
+  }
+
+  main p {
+    max-width: 257px;
+  }
+}
