@@ -191,7 +191,23 @@ main button {
 }
 
 footer {
-  padding-left: 16px;
+  background-color: black;
+  padding: 20px;
+  margin-top: 30px;
+}
+.footerbar {
+  display: flex;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+li {
+  margin: 0 10px;
+  color: white;
 }
 
 @media screen and (min-width: 481px) {
@@ -271,6 +287,11 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
     margin-top: 16px;
+  }
+  h1 {
+    text-align: center;
+    padding: 32px;
+    font-size: 64px;
   }
 
   main p {
