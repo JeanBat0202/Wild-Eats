@@ -211,8 +211,6 @@ main button {
     max-height: 15%;
   }
 
-
- 
   .containerImgrestaurants {
     display: flex;
     flex-direction: row;
@@ -230,4 +228,10 @@ main button {
     flex-direction: row;
     margin-right: 8%;
   }
+  h1 {
+    text-align: center;
+    padding: 32px;
+    font-size: 64px;
+  }
+  
 
