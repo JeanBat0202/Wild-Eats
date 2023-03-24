@@ -19,9 +19,10 @@
           <div class="bar"></div>
         </div>
       </div>
+      
       <div class="menu-burger">
 
-        <label class= "menu-links" "for="Type">Choisis selon ton envie !</label>
+        <label class= "menu-links" "for="Type"><strong>On mange où ?</strong></label>
         <select>
           <option value="#Restaurants">Restaurants</option>
           <option value="#Fast-Food">Fast-Food</option>
@@ -29,12 +30,12 @@
         </select>
     
       
-        <label class= "menu-links" "for="Price">Choisis selon tes finances !</label>
+        <label class= "menu-links" "for="Price"><strong>C'est quoi ton budget ?</strong></label>
         <select id = "select2">
-          <option value="all">Tous</option>
-          <option value="expensive">Chers</option>
-          <option value="average">Moyen</option>
-          <option value="cheap">Pas chers</option>
+          <option value="all">Tout budget</option>
+          <option value="expensive">budget élevé - €€€</option>
+          <option value="average">budget moyen - €€</option>
+          <option value="cheap">budget serré - €</option>
         </select>
     
       </div>
@@ -43,8 +44,8 @@
     <header>
       <h2>Welcome wilders !</h2>
       <p>
-        Nous vous avons selectionné les meilleures adresses pour vous restaurer.
-        Nos experts se sont penchés sur la question durant de longues séances de dégustations.
+        Nous vous avons sélectionné les meilleures adresses pour vous restaurer.
+        Nos experts se sont penchés sur la question durant de longues séances de dégustation.
         Naviguez dans les différentes sections et faites votre choix !
       </p>
     </header>
@@ -61,7 +62,7 @@
           <h3>La Gourmandise</h3>
           <div>
             <p id="descriptionLaGourmandise" style="display: none">
-              Très bon restaurant ou vous serez très bien accueilli par une équipe très aimable et souriante. Une cuisine raffinée et bien élaborée avec de très bon produits. <br>
+              Très bon restaurant où vous serez très bien accueilli par une équipe très aimable et souriante. Une cuisine raffinée et bien élaborée avec des très bons produits. <br>
               <br>Services disponibles: Repas sur place</br>
               <br> Adresse : 2 Place de la Gare, 28240 La Loupe</br>
             </p>
@@ -95,7 +96,7 @@
           <h3>Rital Café</h3>
           <div>
             <p id="descriptionRitalCafé" style="display: none">
-              Laissez vous tenter par n’importe quelle pizza! La Qualité est constante , et les pizzas toujours généreuses ! 
+              Laissez-vous tenter par n’importe quelle pizza! La qualité est constante et les pizzas toujours généreuses ! 
               <br>
               <br> Services disponibles: Repas sur place · Vente à emporter</br>
               <br> Adresse: 7 Rue Delaperelle, 28240 La Loupe</br>
@@ -114,7 +115,7 @@
           <h3>Mcdonald's</h3>
           <div>
             <p id="descriptionMcdo" style="display: none">
-              Classique, rapide, efficace, tout le monde connaît le géant américain du fast food.<br>
+              Classique, rapide, efficace, tout le monde connaît le géant américain du fast-food.<br>
               <br>Services disponibles: Repas sur place · Vente à emporter </br>
               <br> Adresse: 2 Impasse de la Cerisaie, 28240 La Loupe</br>
             </p>
@@ -122,12 +123,12 @@
         </div>
         </div>
 
-        <div class="imgFastFood restoRapide average">
+        <div2 class="imgFastFood restoRapide average">2
           <img src="Pictures Fastfood\restorapide.png" alt="restoRapide" />
           <h3>Resto Rapide</h3>
           <div>
             <p id="descriptionrestoRapide" style="display: none">
-              Copieux bien garnie avec de la viande de qualité !<br>
+              Copieux, bien garnis, avec de la viande de qualité !<br>
               <br>Services disponibles: Repas sur place · Vente à emporter<br>
               <br>Adresse : Rue Delaperelle, 28240 La Loupe</br>
             </p>
@@ -136,12 +137,12 @@
         </div>
 
         <div class="imgFastFood pizzaDiNapoli cheap">
-          <img src="Pictures Fastfood\pizzadinapoli.jpg".jpg"
+          <img src="Pictures Fastfood\pizzadinapoli.jpg"
           alt="pizzaDiNapoli" />
           <h3>Pizza di Napoli</h3>
           <div>
             <p id="descriptionpizzaDiNapoli" style="display: none">
-              En livraison ou à emporter toujours bien reçu et bien servi ! Une équipe au top.<br>
+              En livraison ou à emporter, toujours bien reçu et bien servi ! Une équipe au top.<br>
               <br>Services disponibles: Repas sur place · Drive disponible · Livraison<br>
               <br> Adresse: 1 rue Paul Eluard, 28240 la Loupe</br>
             </p>
@@ -162,7 +163,7 @@
           <h3>Saveurs et Traditions</h3>
           <div>
             <p id="descriptionsaveursEtTraditions" style="display: none">
-              Accueil courtois, cadre de qualité, un large choix de gâteaux. Le pain, les viennoiseries et la pâtisserie sont excellents..<br>
+              Accueil courtois, cadre de qualité, un large choix de gâteaux. Les pains, les viennoiseries et les pâtisseries sont excellents..<br>
               <br> Adresse: 7 Rue de l'Église, 28240 La Loupe</br>
             </p>
             <button onclick="toggleVisibilitysaveursEtTraditions()">...</button>
@@ -178,7 +179,7 @@
           <div>
             <p id="descriptionaurelienEtSolene" style="display: none">
               Rapide dans le service. Propreté de la boutique.
-              Personnel agréable à l'écoute. Essayez leurs madeleines !<br>
+              Personnel agréable et à l'écoute. Essayez leurs madeleines !<br>
 
               <br> Adresse: 2 Place de la Gare, 28240 La Loupe</br>
             </p>
@@ -191,7 +192,7 @@
           <h3>Le gros chêne</h3>
           <div>
             <p id="descriptiongrosChene" style="display: none">
-              L'accueil est très sympathique, et la boutique possède un grand choix de pains, de viennoiseries et de pâtisseries.<br>
+              L'accueil est très sympathique et la boutique possède un grand choix de pains, de viennoiseries et de pâtisseries.<br>
               <br> Adresse: 3 Rue de Châteaudun, 28240 La Loupe</br>
             </p>
             <button onclick="toggleVisibilitygrosChene()">...</button>
